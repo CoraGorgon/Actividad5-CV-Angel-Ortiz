@@ -1,0 +1,230 @@
+/* ESTILOS SENCILLOS DEL CV */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #f3ffd5;
+    color: #222;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #0b477d;
+    padding: 20px;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 750px;
+    margin: 25px auto;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #ccc;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 8px solid #e65c61;
+}
+
+.foto {
+    width: 190px;
+    min-width: 190px;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+}
+
+.datos h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 5px 0;
+}
+
+.datos h2 {
+    font-family: "Poppins", sans-serif;
+    color: #555;
+    font-size: 18px;
+}
+
+.etiqueta {
+    color: #d94e54;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.datos i {
+    color: #0b477d;
+    width: 22px;
+}
+
+.titulo {
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.resaltado {
+    color: #0b477d;
+    font-weight: bold;
+}
+
+.redes {
+    margin-top: 15px;
+}
+
+.redes a {
+    color: #0b477d;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #d94e54;
+}
+
+.habilidades span {
+    display: inline-block;
+    background-color: #e8f2fa;
+    color: #0b477d;
+    padding: 8px 12px;
+    margin: 5px;
+}
+
+.imagen-ejemplo {
+    width: 100%;
+    max-width: 500px;
+}
+
+video,
+audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+.nota {
+    color: #666;
+    font-size: 13px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    font-family: "Roboto", sans-serif;
+}
+
+input[type="email"] {
+    background-color: #fafafa;
+}
+
+#contacto {
+    border-top: 4px solid #0b477d;
+}
+
+button {
+    width: 130px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e65c61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c94b50;
+}
+
+footer {
+    background-color: #0b477d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #dfffa8;
+}
+
+@media (max-width: 650px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        text-align: center;
+    }
+}
