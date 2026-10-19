@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio personal de Ángel Saúl Ortiz Aguilar, estudiante de Desarrollo de Software Multiplataforma en la UTL.">
+  <meta name="keywords" content="Ángel Saúl Ortiz Aguilar, portafolio, HTML, CSS, Bootstrap, UTL">
+  <meta name="author" content="Ángel Saúl Ortiz Aguilar">
+  <title>Ángel Saúl Ortiz Aguilar | Portafolio personal</title>
+  <link rel="stylesheet" href="assets/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Mi portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Palabras clave: Ángel Saúl Ortiz Aguilar, portafolio personal, desarrollo de software. -->
+  <header id="inicio" class="bg-light border-bottom py-5">
+    <div class="container text-center">
+      <h1 class="h2">Ángel Saúl Ortiz Aguilar</h1>
+      <p class="lead mb-2">Estudiante de Desarrollo de Software Multiplataforma</p>
+      <p class="text-secondary">Universidad Tecnológica de León · Cuarto cuatrimestre</p>
+      <a class="btn btn-primary" href="#proyectos">Ver mis proyectos</a>
+    </div>
+  </header>
+
+  <main class="container my-4">
+    <!-- Palabras clave: perfil personal, programación, objetivos, portafolio académico. -->
+    <section id="sobre-mi" class="bg-white border rounded p-4 mb-4">
+      <h2 class="h4">Sobre mí</h2>
+      <p>Mi nombre es Ángel Saúl Ortiz Aguilar. Estudio Ingeniería en Desarrollo de Software Multiplataforma en la Universidad Tecnológica de León. Me interesa la programación y el desarrollo de software.</p>
+      <p><strong>Propósito:</strong> presentar mi información académica, habilidades y proyectos en un portafolio personal.</p>
+      <p><strong>Objetivo:</strong> mostrar lo aprendido durante mi formación y practicar el desarrollo de sitios responsivos.</p>
+      <p class="mb-0"><strong>Público objetivo:</strong> profesores, compañeros, reclutadores y personas interesadas en conocer mi trabajo.</p>
+    </section>
+
+    <!-- Palabras clave: formación académica, UTL, HTML5, CSS3, Bootstrap 5. -->
+    <section id="formacion" class="mb-4">
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card h-100"><div class="card-body p-4">
+            <h2 class="h4">Formación académica</h2>
+            <p>Ingeniería en Desarrollo de Software Multiplataforma</p>
+            <p>Universidad Tecnológica de León</p>
+            <p class="mb-0">Actualmente curso el cuarto cuatrimestre.</p>
+          </div></div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card h-100"><div class="card-body p-4">
+            <h2 class="h4">Habilidades</h2>
+            <ul class="mb-0"><li>HTML5</li><li>CSS3</li><li>Programación</li><li>Bootstrap 5 aplicado en este sitio</li></ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Palabras clave: proyectos web, currículum HTML CSS, diseño responsivo Bootstrap. -->
+    <section id="proyectos" class="bg-white border rounded p-4 mb-4">
+      <h2 class="h4 mb-3">Mis proyectos</h2>
+      <div class="row g-4">
+        <article class="col-12 col-md-6">
+          <h3 class="h5">CV personal en HTML y CSS</h3>
+          <p>Página realizada en la Actividad 5 para presentar mi información, formación y habilidades.</p>
+          <a href="https://coragorgon.github.io/Actividad5-CV-Angel-Ortiz/" class="btn btn-outline-primary btn-sm">Ver Actividad 5</a>
+        </article>
+        <article class="col-12 col-md-6">
+          <h3 class="h5">Portafolio con Bootstrap</h3>
+          <p class="mb-0">Adaptación de mi portafolio para la Actividad 6, con columnas, tarjetas, menú responsivo y formulario de contacto.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Palabras clave: contacto, correo UTL, GitHub CoraGorgon. -->
+    <section id="contacto" class="bg-white border rounded p-4 mb-4">
+      <h2 class="h4">Contacto</h2>
+      <p><a href="mailto:25000075@alumnos.utleon.edu.mx">25000075@alumnos.utleon.edu.mx</a> · <a href="https://github.com/CoraGorgon">Mi GitHub</a></p>
+      <form id="formulario">
+        <div class="row g-3">
+          <div class="col-12 col-md-6"><label for="nombre" class="form-label">Nombre</label><input class="form-control" id="nombre" name="nombre" autocomplete="name" required></div>
+          <div class="col-12 col-md-6"><label for="correo" class="form-label">Correo electrónico</label><input type="email" class="form-control" id="correo" name="correo" autocomplete="email" required></div>
+          <div class="col-12"><label for="mensaje" class="form-label">Mensaje</label><textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea></div>
+          <div class="col-12"><p class="small text-secondary">Este formulario abre tu aplicación de correo para completar el envío.</p><button class="btn btn-primary" type="submit">Preparar correo</button></div>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center py-3"><div class="container"><p class="mb-1">© 2026 Ángel Saúl Ortiz Aguilar</p><a class="text-white small" href="https://github.com/CoraGorgon/Actividad5-CV-Angel-Ortiz/tree/main/actividad6">Código del sitio en GitHub</a></div></footer>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/contacto.js"></script>
+</body>
+</html>
